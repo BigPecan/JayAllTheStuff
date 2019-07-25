@@ -1,0 +1,35 @@
+<svg class="background">
+  <svg id="clock" display="inline"> 
+    <text id="test" class="test">test</text>
+    <g id="calendar">
+      <text id="day"/>
+      <text id="date"/>
+    </g>
+    <image id="batteryLevelImage" x="80%" y="2%" width="55" height="25" href="icons/battery/battery.png" load="sync"/>
+    <rect id="batteryLevelRect" x="281" y="8" width="48" height="20" fill="white" />
+    <text id="batteryLevelLabel" />
+    <circle id = "seperatorEndLeft"cx="5%" cy="38" />
+    <line id = "seperatorLine" x1="5%" y1="37" x2="95%" y2="37"/>
+    <circle id = "seperatorEndRight"cx="95%" cy="38" />
+    <image id="seperatorLineImage" x="13" y="33" width="321" height="10" href="" load="sync"/>
+    <image id="seperatorLineEffect" x="11" y="33" width="321" height="12" href="" load="sync"/>
+    <g id="clock">
+      <text id="ionic-time"/>
+      <text id="ionic-am-pm"/>
+      <text id="ionic-second"/>
+      <text id="versa-time"/>
+      <text id="versa-am-pm"/>
+      <text id="versa-second"/>
+      <text id="versalite-time"/>
+      <text id="versalite-am-pm"/>
+      <text id="versalite-second"/>
+    </g>
+  </svg>
+  <svg id="stats" display="none">
+    <text id="test" class="test">test</text>
+  </svg>
+  <svg id="forecast" display="none">
+    <text id="test" class="test">test</text>
+  </svg>
+  <rect id="clickbg" pointer-events="visible"/>
+</svg>
